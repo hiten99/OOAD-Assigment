@@ -1,0 +1,14 @@
+project (randomgenerator) {
+  specific (make) {
+    requires += cpp11
+    compile_flags += -std=c++11
+  }
+  exename = randomgenerator
+  install = .
+ 
+  Source_Files {
+  random.cpp
+  random2.cpp
+  }
+  
+  }
